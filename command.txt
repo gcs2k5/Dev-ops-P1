@@ -21,5 +21,22 @@ git push -u origin main
 #7. Viewing the branches
 git branch
 
+
+#8. Creanting a new branch
+git branch feature/updating-codes
+
+
+#9. Switching to the new branch
+git checkout feature/updating-codes
+
+#10. after adding codes in local repo, push the codes to remote repo
+git add. 
+git commit -m "I have added a files" 
+git push -u origin feature/updating-codes 
+
+#11. directory creating cand checking out to new branch
+git checkout -b feature/updating-codes-1
+
+
 git add README.md
 X
