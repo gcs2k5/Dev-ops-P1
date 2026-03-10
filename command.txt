@@ -18,6 +18,8 @@ git commit -m "I have added a files"
 #6. Pushing the files to remote repo
 git push -u origin main
 
+#7. Viewing the branches
+git branch
 
 git add README.md
 X
