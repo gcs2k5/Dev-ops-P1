@@ -1,7 +1,23 @@
-echo "# Dev-ops-P1" >> README.md
+#initilaztion of Git repo in a fodler
 git init
-git add README.md
-git commit -m "first commit"
+
+#2. Adding default branch as main
 git branch -M main
+
+
+#3. Adding remote repo i.e. addming public url for project  ( add, commit and push)
 git remote add origin https://github.com/gcs2k5/Dev-ops-P1.git
+
+#4. Adding files in staging area
+git add file1.txt
+git add .
+
+#5. Commiting the files
+git commit -m "I have added a files"
+
+#6. Pushing the files to remote repo
 git push -u origin main
+
+
+git add README.md
+X
